@@ -1,0 +1,20 @@
+html,
+body {
+  min-height: 100vh;
+}
+
+.main-content {
+  @apply flex flex-col justify-center text-center;
+
+  height: 50vh;
+
+  h1 {
+    @apply text-gray-600 text-2xl;
+  }
+
+  p {
+    @apply mx-auto italic text-gray-400 mt-12;
+
+    max-width: 300px;
+  }
+}
